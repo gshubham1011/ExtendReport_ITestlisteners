@@ -19,8 +19,7 @@ public class ExtentManager {
   //htmlReporter.config().setTheme(Theme.DARK);
   
   extent = new ExtentReports();
-  extent.attachReporter(htmlReporter);
-  
+  extent.attachReporter(htmlReporter);  
   //extent.setSystemInfo("HostName", "MyHost");
   extent.setSystemInfo("ProjectName", "OrangeHRM");
   extent.setSystemInfo("Tester", "Shubham");
